@@ -1,35 +1,14 @@
-# Node
+﻿# Node
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-
-# Env
 .env
-.env.local
-.env.*.local
 
-# Logs
-logs/
-*.log
-debug.log
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-
-# Build / dist
+# uploads & built assets
+uploads/
 dist/
 build/
 
-# Lockfile (optional to track)
-# package-lock.json
-
-# GridFS uploads or local uploads folder
-uploads/
-dump/
-*.archive
